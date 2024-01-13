@@ -4,7 +4,7 @@ public:
     if (s.length() == 1) return 0;
     int counter1 = 0, counter2 = 0;
     bool tweak = true;
-    for(const char &c : s)
+    for(const char c : s)
     {
         if(tweak)
         {
