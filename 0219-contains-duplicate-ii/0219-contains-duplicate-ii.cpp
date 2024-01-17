@@ -6,7 +6,7 @@ public:
 
         size_t index = 0;
 
-        for(const int num : nums)
+        for(const int& num : nums)
         {    
             auto it = mapVector.find(num);
 
